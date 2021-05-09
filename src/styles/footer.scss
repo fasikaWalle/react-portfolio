@@ -1,0 +1,17 @@
+.footer {
+  // margin: 3% 0 0 4%;
+
+  bottom: 20%;
+  left: 40%;
+  position: absolute;
+}
+.icons {
+  color: #8d8a8a;
+  transform: color 0.5s;
+  margin: 10% auto 0 auto;
+  // font-size: 20px;
+}
+
+.icons:hover {
+  color: rgba(255, 255, 255, 0.842);
+}
