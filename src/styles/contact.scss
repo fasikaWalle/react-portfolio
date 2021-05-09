@@ -1,0 +1,30 @@
+.paper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32%;
+}
+#avatar {
+  background-color: #d03464;
+}
+.MuiButton-label {
+  color: #fff;
+  z-index: 2;
+}
+#btn-submit {
+  background-color: #d03464;
+  padding: 1rem;
+}
+.message {
+  padding: 2rem;
+  width: 83%;
+  font-size: 1rem;
+  outline-color: #e7e6e6;
+}
+
+.css-17vbkzs-MuiFormControl-root-MuiTextField-root {
+  background-color: #fff;
+}
+.css-zokxp0-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 0;
+}
