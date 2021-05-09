@@ -2,10 +2,10 @@
 html,body{
   background-color: #000000; 
  color:rgba(255, 255, 255, 0.842);
- overflow-x:hidden;
 box-sizing:border-box;
 position: relative;
 font-family: 'Lato', sans-serif;
+overflow-x:hidden;
 }
 
 .App {
@@ -13,7 +13,16 @@ font-family: 'Lato', sans-serif;
   width:100vw;
    height:100vh; 
   margin:0 auto;
-  
+  overflow-y: auto;
+  overflow-x:hidden;
+}
+  #root{
+    position: relative;
+  }
+
+.dark-mode{
+  background-color: #f4f4f4;
+  color:#000000;
 }
 
 

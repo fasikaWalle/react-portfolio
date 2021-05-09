@@ -1,3 +1,4 @@
+$height: 100%;
 .navList {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -8,15 +9,14 @@
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 2;
   width: 250px;
-  height: 100%;
+  height: $height;
   background-color: #96254b;
-
-  opacity: 0.8;
 }
 
 .nav-menu a {
-  height: 100%;
+  height: $height;
   line-height: 65px;
   font-size: 20px;
   padding-left: 15px;

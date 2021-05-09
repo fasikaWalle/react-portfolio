@@ -1,3 +1,7 @@
+@mixin size {
+  width: 100%;
+  height: 100%;
+}
 .work-image:hover {
   opacity: 0.8;
   transform: scale(1.15);
@@ -8,8 +12,7 @@
 }
 
 .work-image {
-  width: 100%;
-  height: 100%;
+  @include size;
   opacity: 1;
   transform: scale(1.03);
   transition: 0.5s ease;
@@ -24,16 +27,18 @@
 }
 .title {
   color: white;
-  font-size: 20px;
+  font-size: 1.5rem;
   padding: 20px 32px;
+  padding-left: 10px;
 }
 .title a {
   text-decoration: none;
   color: #fff;
+  margin-right: 5px;
+  z-index: 9999;
 }
 .work-grid {
-  width: 100%;
-  height: 100%;
+  @include size;
   overflow: hidden;
   background: #000000;
   position: relative;
@@ -44,11 +49,10 @@
   opacity: 0;
   position: absolute;
   top: 50%;
-  left: 25%;
-
+  left: 30%;
   transform: translate(-50%, -50%);
-
   text-align: center;
+  pointer-events: none;
 }
 .portfolio {
   margin: 8% 0 0 17%;
@@ -61,4 +65,7 @@
   font-size: 3rem;
   color: #b34167;
   margin: -5% 0 5% 0;
+}
+.git-icon {
+  margin-left: 5px;
 }

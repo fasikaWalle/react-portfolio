@@ -1,23 +1,12 @@
-import { React, useEffect, useState } from "react";
+import React from "react";
 import Particles from "react-particles-js";
 
 import "../../styles/home.scss";
 import NavMenu from "../menu";
 
 function Home() {
-  const [navState, setNavState] = useState(false);
-  // useEffect(() => {
-  //   console.log(navState + " " + "update");
-
-  // }, [navState]);
-  // useEffect(() => {
-  //   console.log("mount");
-  // }, []);
-  //component did update
-  //component will unmount
-  //componentDidMount
   return (
-    <>
+    <div className="home">
       <div className="headerText">
         Hello, I'm Fasika Walle
         <p className="spanHeader">I am a full stack developer</p>
@@ -54,7 +43,7 @@ function Home() {
           },
         }}
       />
-    </>
+    </div>
   );
 }
 

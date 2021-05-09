@@ -1,7 +1,6 @@
 import React from "react";
-
-import Footer from "../footer";
 import NavMenu from "../menu";
+import Back from "../Back";
 import "../../styles/about.scss";
 export default function About() {
   return (
@@ -20,7 +19,7 @@ export default function About() {
         new technologies in a short time.
       </div>
       <NavMenu />
-      <Footer />
+      <Back />
     </div>
   );
 }

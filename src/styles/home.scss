@@ -1,11 +1,15 @@
+.home {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
 .particleCanvas {
   z-index: -1;
 }
 .headerText {
   font-size: 32pt;
   color: #ff028d;
-  filter: brightness(0.9);
-  font-weight: 100;
+
   margin-top: 15%;
 }
 .spanHeader {

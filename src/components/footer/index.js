@@ -1,16 +1,30 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import MailIcon from "@material-ui/icons/Mail";
-import { BottomNavigationAction } from "@material-ui/core";
+
+import { AiOutlineMail } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+
 import "../../styles/footer.scss";
 
 function Footer() {
   return (
     <div className="footer">
-      <BottomNavigationAction icon={<MailIcon className="icons" />} />
-      <BottomNavigationAction icon={<LinkedInIcon className="icons" />} />
-      <BottomNavigationAction icon={<GitHubIcon className="icons" />} />
+      <AiOutlineMail
+        className="icons"
+        onClick={() => window.open("mailto:fasikawalle8@gmail.com")}
+      />
+
+      <AiFillLinkedin
+        className="icons"
+        onClick={() =>
+          window.open("https://www.linkedin.com/in/fasika-walle-701bb1143/")
+        }
+      />
+
+      <AiFillGithub
+        className="icons"
+        onClick={() => window.open("https://github.com/fasikaWalle/")}
+      />
     </div>
   );
 }

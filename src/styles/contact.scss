@@ -1,18 +1,25 @@
-.paper {
+@import "./color";
+
+@mixin flex($space, $wrap, $direction) {
   display: flex;
-  flex-direction: column;
+  flex-direction: $direction;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: $space;
+}
+.paper {
+  @include flex(none, wrap, column);
   margin-top: 32%;
 }
 #avatar {
-  background-color: #d03464;
+  background-color: $primary-color;
 }
 .MuiButton-label {
   color: #fff;
   z-index: 2;
 }
 #btn-submit {
-  background-color: #d03464;
+  background-color: $primary-color;
   padding: 1rem;
 }
 .message {
@@ -24,7 +31,4 @@
 
 .css-17vbkzs-MuiFormControl-root-MuiTextField-root {
   background-color: #fff;
-}
-.css-zokxp0-MuiInputBase-root-MuiOutlinedInput-root {
-  border-radius: 0;
 }

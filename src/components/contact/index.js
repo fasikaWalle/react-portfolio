@@ -3,6 +3,7 @@ import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import "../../styles/contact.scss";
 import NavMenu from "../menu";
 import Footer from "../footer";
+import Back from "../Back";
 import {
   Typography,
   Container,
@@ -17,7 +18,6 @@ export default function Contact() {
   return (
     <>
       <Container maxWidth="xs" className="contact-form">
-        {/* <CssBaseline /> */}
         <div className="paper">
           <Avatar id="avatar">
             <LockOutlinedIcon />
@@ -50,7 +50,7 @@ export default function Contact() {
         </div>
         <NavMenu />
       </Container>
-      <Footer />
+      <Back />
     </>
   );
 }
