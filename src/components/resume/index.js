@@ -6,9 +6,10 @@ import NavMenu from "../menu";
 import { FaPhoneSquare } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { ImLocation2 } from "react-icons/im";
+import { GrDocumentWord } from "react-icons/gr";
 import Back from "../Back";
 import "../../styles/resume.scss";
-
+import resume from "../../assets/doc/FasikaWalleResume.docx";
 export default function Resume() {
   return (
     <div className="resume">
@@ -37,7 +38,7 @@ export default function Resume() {
         </div>
       </div>
       <div className="resume-aboutme">
-        <img src={profilePic} className="profile-pic" />
+        <img src={profilePic} className="profile-pic" alt="profile-pic" />
         <p>
           nt of a page when looking at its layout. The point of using Lorem
           Ipsum is that it has a more-or-less normal distribution of letters, as
@@ -89,6 +90,10 @@ export default function Resume() {
 
       <NavMenu />
       <Back />
+
+      <a href={resume} download="resume" className="download-resume">
+        <GrDocumentWord className="word-icon" /> download
+      </a>
     </div>
   );
 }

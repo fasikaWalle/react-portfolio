@@ -16,7 +16,7 @@ export default function Nav() {
         m={1}
         className="nav-menu"
       >
-        <img src={faikaWalle} className="profile-image" href="/" />
+        <img src={faikaWalle} className="profile-image" href="/" alt="cover" />
         {navBar.map((navListItem) => (
           <Box p={2} key={navListItem}>
             <Link to={"/" + navListItem.toLowerCase()} className="navList">

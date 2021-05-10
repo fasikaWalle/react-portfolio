@@ -25,7 +25,7 @@ function Portfolio({ portfolioData }) {
                       {tile.title}
                       <ImGithub className="git-icon" />
                     </>
-                    <> {tile.tool}</>
+                    <span> {tile.tool}</span>
                   </p>
                 </div>
               </div>

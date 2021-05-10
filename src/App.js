@@ -7,10 +7,10 @@ import Portfolio from "./components/portfolio";
 import Resume from "./components/resume";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import omni from "../src/assets/Omnifood.png";
-import zing from "../src/assets/zing.png";
-import simpleJack from "../src/assets/simple-jack.png";
-import blog from "../src/assets/blog_post.png";
+import omni from "../src/assets/images/Omnifood.png";
+import zing from "../src/assets/images/zing.png";
+import simpleJack from "../src/assets/images/simple-jack.png";
+import blog from "../src/assets/images/blog_post.png";
 
 const portfolioData = [
   {
@@ -50,10 +50,6 @@ const portfolioData = [
 ];
 
 function App() {
-  const descrition = {
-    name: "Hello, I'm Fasika Walle",
-    description: "I am a full stack developer",
-  };
   return (
     <>
       <Router>

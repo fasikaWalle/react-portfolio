@@ -2,13 +2,11 @@ import React from "react";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import "../../styles/contact.scss";
 import NavMenu from "../menu";
-import Footer from "../footer";
 import Back from "../Back";
 import {
   Typography,
   Container,
   TextField,
-  CssBaseline,
   TextareaAutosize,
   Button,
   Avatar,
@@ -30,6 +28,7 @@ export default function Contact() {
               fullWidth
               placeholder="Username*"
               autoFocus
+              required
             />
             <TextField
               variant="outlined"
@@ -37,6 +36,7 @@ export default function Contact() {
               fullWidth
               placeholder="Email*"
               autoFocus
+              required
             />
             <TextareaAutosize
               aria-label="minimum height"

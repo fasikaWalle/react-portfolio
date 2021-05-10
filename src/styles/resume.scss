@@ -8,8 +8,9 @@ $border-bottom: 0.1px solid #424242;
 .resume {
   width: 70%;
   margin: 2% auto 0 auto;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 300;
+  overflow: hidden;
 }
 .info {
   @include flex(space-between, wrap, row);
@@ -76,4 +77,18 @@ li {
 }
 .footer {
   margin-top: 20%;
+}
+
+.download-resume {
+  position: fixed;
+  bottom: 2%;
+  left: 5%;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #c2597c;
+  color: #fff;
+}
+
+.word-icon {
+  margin: 0 5px 0 0;
 }

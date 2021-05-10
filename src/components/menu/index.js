@@ -1,5 +1,4 @@
 import { React, useState } from "react";
-import MenuIcon from "@material-ui/icons/Menu";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import Nav from "../nav";
 import "../../styles/menu.scss";
