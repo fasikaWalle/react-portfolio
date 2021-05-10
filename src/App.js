@@ -9,7 +9,7 @@ import Resume from "./components/resume";
 import { HashRouter, Switch, Route } from "react-router-dom";
 import omni from "../src/assets/images/Omnifood.png";
 import zing from "../src/assets/images/zing.png";
-import simpleJack from "../src/assets/images/simple-jack.png";
+import simpleJack from "../src/assets/images//simple-jack.png";
 import blog from "../src/assets/images/blog_post.png";
 
 const portfolioData = [
