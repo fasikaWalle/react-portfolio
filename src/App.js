@@ -6,7 +6,7 @@ import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
 import Resume from "./components/resume";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import omni from "../src/assets/images/Omnifood.png";
 import zing from "../src/assets/images/zing.png";
 import simpleJack from "../src/assets/images/simple-jack.png";
