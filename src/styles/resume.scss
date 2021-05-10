@@ -1,0 +1,94 @@
+@import "./contact";
+$border-bottom: 0.1px solid #424242;
+.resume-header {
+  font-size: 2.5rem;
+  color: #b34167;
+  margin: 0 0 0 0;
+}
+.resume {
+  width: 70%;
+  margin: 2% auto 0 auto;
+  line-height: 1.5;
+  font-weight: 300;
+  overflow: hidden;
+}
+.info {
+  @include flex(space-between, wrap, row);
+  width: 100%;
+  border-bottom: border-bottom;
+  padding: 1rem;
+}
+
+.resume-aboutme {
+  text-align: justify;
+  padding-bottom: 1rem;
+  border-bottom: border-bottom;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  display: flex;
+}
+.skills-section {
+  display: flex;
+}
+.skills {
+  width: 30%;
+}
+.work {
+  border-right: 0.2px solid #424242;
+  width: 70%;
+}
+
+.color {
+  color: #c2597c;
+  border-left: 3px solid #b34167;
+  padding: 5px;
+  font-size: 1.125rem;
+}
+.header-name {
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  color: #c56786;
+}
+.header-title {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+  text-align: start;
+  padding: 5px;
+}
+.contact-info {
+  border-left: 0.1px solid #424242;
+}
+.resume-aboutme img {
+  width: 20%;
+}
+.resume-aboutme p {
+  width: 80%;
+}
+.profile-pic {
+  max-width: 120px;
+  margin-right: 2%;
+  border-radius: 200%;
+}
+.footer {
+  margin-top: 20%;
+}
+
+.download-resume {
+  position: fixed;
+  bottom: 2%;
+  left: 5%;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #c2597c;
+  color: #fff;
+}
+
+.word-icon {
+  margin: 0 5px 0 0;
+}

@@ -1,20 +1,29 @@
 
 html,body{
   background-color: #000000; 
-  z-index: 9999;
-  font-family: 'lato';
-  font-family: 'Open Sans Condensed', sans-serif;
- font-size: 20px;
- font-weight: 300;
- color:rgb(150, 150, 150);
+ color:rgba(255, 255, 255, 0.842);
+box-sizing:border-box;
+position: relative;
+font-family: 'Lato', sans-serif;
+overflow-x:hidden;
+line-height: 1.5;
 }
 
 .App {
  text-align: center;
-  width:90%;
+  width:100vw;
+   height:100vh; 
   margin:0 auto;
-  overflow-x: hidden;
-  overflow-y:hidden;
+  overflow-y: auto;
+  overflow-x:hidden;
+}
+  #root{
+    position: relative;
+  }
+
+.dark-mode{
+  background-color: #f4f4f4;
+  color:#000000;
 }
 
 
