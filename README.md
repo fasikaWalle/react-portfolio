@@ -20,7 +20,7 @@ This application is designed to show my personal information and my work to be a
 ## Usage
 
 Click the link below
-http://fasikawalle.github.io/react-portfolio/
+http://fasikaWalle.github.io/react-portfolio/
 
 ![project image](./src/assets/images/portfolio.png)
 
