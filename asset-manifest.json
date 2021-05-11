@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.da3f1bed.chunk.css",
-    "main.js": "/static/js/main.daafc1be.chunk.js",
-    "main.js.map": "/static/js/main.daafc1be.chunk.js.map",
+    "main.css": "/static/css/main.15f094ab.chunk.css",
+    "main.js": "/static/js/main.72485799.chunk.js",
+    "main.js.map": "/static/js/main.72485799.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6ed9a98d.js",
     "runtime-main.js.map": "/static/js/runtime-main.6ed9a98d.js.map",
-    "static/js/2.3a7abfd8.chunk.js": "/static/js/2.3a7abfd8.chunk.js",
-    "static/js/2.3a7abfd8.chunk.js.map": "/static/js/2.3a7abfd8.chunk.js.map",
+    "static/js/2.aa6594c0.chunk.js": "/static/js/2.aa6594c0.chunk.js",
+    "static/js/2.aa6594c0.chunk.js.map": "/static/js/2.aa6594c0.chunk.js.map",
     "static/js/3.d983779c.chunk.js": "/static/js/3.d983779c.chunk.js",
     "static/js/3.d983779c.chunk.js.map": "/static/js/3.d983779c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.da3f1bed.chunk.css.map": "/static/css/main.da3f1bed.chunk.css.map",
-    "static/js/2.3a7abfd8.chunk.js.LICENSE.txt": "/static/js/2.3a7abfd8.chunk.js.LICENSE.txt",
+    "static/css/main.15f094ab.chunk.css.map": "/static/css/main.15f094ab.chunk.css.map",
+    "static/js/2.aa6594c0.chunk.js.LICENSE.txt": "/static/js/2.aa6594c0.chunk.js.LICENSE.txt",
     "static/media/FasikaWalleResume.c5dd89a4.docx": "/static/media/FasikaWalleResume.c5dd89a4.docx",
     "static/media/Omnifood.31a42fbb.png": "/static/media/Omnifood.31a42fbb.png",
     "static/media/blog_post.82cde5ae.png": "/static/media/blog_post.82cde5ae.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6ed9a98d.js",
-    "static/js/2.3a7abfd8.chunk.js",
-    "static/css/main.da3f1bed.chunk.css",
-    "static/js/main.daafc1be.chunk.js"
+    "static/js/2.aa6594c0.chunk.js",
+    "static/css/main.15f094ab.chunk.css",
+    "static/js/main.72485799.chunk.js"
   ]
 }
