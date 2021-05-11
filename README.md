@@ -4,7 +4,7 @@
 
 ## Description
 
-This application is designed to show my personal information and my work to be a better candidate for work.
+This application is designed to show my personal information and my work to be a better candidate for work..
 
 ## Table of Content
 
