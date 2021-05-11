@@ -48,7 +48,7 @@ const portfolioData = [
     git: "https://github.com/fasikaWalle/tech-blog-post",
   },
 ];
-
+//app comonent
 function App() {
   return (
     <>
