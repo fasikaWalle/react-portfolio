@@ -6,7 +6,7 @@ import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
 import Resume from "./components/resume";
 
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import omni from "../src/assets/images/Omnifood.png";
 import zing from "../src/assets/images/zing.png";
 import simpleJack from "../src/assets/images//simple-jack.png";
@@ -52,7 +52,7 @@ const portfolioData = [
 function App() {
   return (
     <>
-      <HashRouter>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Switch>
             <Route path="/" exact component={Home} />
@@ -67,7 +67,7 @@ function App() {
             <Route path="/resume" component={Resume} />
           </Switch>
         </div>
-      </HashRouter>
+      </Router>
       <Footer />
     </>
   );
