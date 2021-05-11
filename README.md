@@ -20,6 +20,7 @@ This application is designed to show my personal information and my work to be a
 ## Usage
 
 Click the link below
+https://fasika-walle-portfolio.netlify.app/
 
 ![project image](./src/assets/images/portfolio.png)
 
