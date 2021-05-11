@@ -4,14 +4,7 @@
 
 ## Description
 
-This application is designed to show my personal information and my work to be a better candidate for work.
-
-## Table of Content
-
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Licence](#Licence)
-- [Tests](#Tests)
+This application is designed using react and sass as a tool to show my personal information and my work to be a better candidate for work..
 
 ## Installation
 
@@ -20,6 +13,7 @@ This application is designed to show my personal information and my work to be a
 ## Usage
 
 Click the link below
+https://fasika-walle-portfolio.netlify.app/
 
 ![project image](./src/assets/images/portfolio.png)
 
