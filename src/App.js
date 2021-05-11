@@ -9,7 +9,7 @@ import Resume from "./components/resume";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import omni from "../src/assets/images/Omnifood.png";
 import zing from "../src/assets/images/zing.png";
-import simpleJack from "../src/assets/images/simple-jack.png";
+import simpleJack from "../src/assets/images//simple-jack.png";
 import blog from "../src/assets/images/blog_post.png";
 
 const portfolioData = [
@@ -48,11 +48,11 @@ const portfolioData = [
     git: "https://github.com/fasikaWalle/tech-blog-post",
   },
 ];
-
+//app comonent
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Switch>
             <Route path="/" exact component={Home} />
