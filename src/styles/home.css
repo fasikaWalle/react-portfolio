@@ -1,0 +1,26 @@
+.home {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.particleCanvas {
+  z-index: -1;
+}
+
+.headerText {
+  font-size: 32pt;
+  color: #ff028d;
+  margin-top: 15%;
+}
+
+.spanHeader {
+  color: #fff;
+  font-size: 60pt;
+  font-weight: 100;
+  color: #b3b3b3;
+  margin-top: 0;
+  -webkit-filter: brightness(200%);
+          filter: brightness(200%);
+}
+/*# sourceMappingURL=home.css.map */

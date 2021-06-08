@@ -42,6 +42,7 @@ export default function Contact() {
               aria-label="minimum height"
               placeholder="Message"
               className="message"
+              required
             />
             <Button type="submit" fullWidth id="btn-submit">
               Send

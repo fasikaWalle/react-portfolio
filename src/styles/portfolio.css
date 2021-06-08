@@ -1,0 +1,90 @@
+.work-image:hover {
+  opacity: 0.8;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.5s ease-in-out;
+  transition: opacity 0.2s, -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, opacity 0.2s;
+  transition: transform 0.5s ease-in-out, opacity 0.2s, -webkit-transform 0.5s ease-in-out;
+  overflow: hidden;
+  height: 100%;
+  z-index: 2;
+}
+
+.work-image {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.work-grid:hover .work-image {
+  opacity: 0.3;
+}
+
+.work-grid:hover .work-title {
+  opacity: 1;
+}
+
+.title {
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px 32px;
+  padding-left: 10px;
+}
+
+.title a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 5px;
+  z-index: 9999;
+}
+
+.title span {
+  display: block;
+}
+
+.work-grid {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000000;
+  position: relative;
+  margin: 10%;
+}
+
+.work-title {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+
+.portfolio {
+  margin: 8% 0 0 17%;
+  width: 60%;
+  height: 80%;
+  color: #0000003f;
+}
+
+.portfolio-header {
+  font-size: 3rem;
+  color: #b34167;
+  margin: -5% 0 5% 0;
+}
+
+.git-icon {
+  margin-left: 5px;
+}
+/*# sourceMappingURL=portfolio.css.map */

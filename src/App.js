@@ -26,9 +26,9 @@ const portfolioData = [
     cols: 4,
 
     src: omni,
-    title: "Omni foods",
-    tool: "HTML & CSS",
-    git: "https://github.com/fasikaWalle/omniFood",
+    title: "Zing Chat 2.0",
+    tool: "React",
+    git: "https://github.com/JamesLuu96/zing-chat",
   },
 
   {
