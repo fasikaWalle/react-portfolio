@@ -1,0 +1,20 @@
+.about-me {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 300;
+  width: 60%;
+  text-align: justify;
+}
+
+.aboutme-wrapper {
+  width: 100%;
+  color: #c7c6c6;
+  margin: 10% 20% 0 18%;
+}
+
+.aboutme-header {
+  font-size: 2rem;
+  color: #96254b;
+  text-align: center;
+}
+/*# sourceMappingURL=about.css.map */

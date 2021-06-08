@@ -7,7 +7,7 @@ import Portfolio from "./components/portfolio";
 import Resume from "./components/resume";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import omni from "../src/assets/images/Omnifood.png";
+import zingNew from "../src/assets/images/zing2.0.png";
 import zing from "../src/assets/images/zing.png";
 import simpleJack from "../src/assets/images//simple-jack.png";
 import blog from "../src/assets/images/blog_post.png";
@@ -25,10 +25,10 @@ const portfolioData = [
     id: "1",
     cols: 4,
 
-    src: omni,
-    title: "Omni foods",
-    tool: "HTML & CSS",
-    git: "https://github.com/fasikaWalle/omniFood",
+    src: zingNew,
+    title: "Zing Chat 2.0",
+    tool: "React",
+    git: "https://github.com/JamesLuu96/zing-chat",
   },
 
   {

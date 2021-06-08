@@ -1,0 +1,21 @@
+.footer {
+  bottom: 0%;
+  right: 5%;
+  padding: 10px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.icons {
+  color: #8d8a8a;
+  -webkit-transform: color 0.5s;
+          transform: color 0.5s;
+  margin: 10% auto 0 auto;
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.icons:hover {
+  color: rgba(255, 255, 255, 0.842);
+}
+/*# sourceMappingURL=footer.css.map */
